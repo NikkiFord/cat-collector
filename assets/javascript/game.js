@@ -1,12 +1,13 @@
 //global variables
 var angryCatNumber, devilCatNumber, haloCatNumber, happyCatNumber, wins = 0, losses = 0, totalScore;
-
+//generates a random number between the numbers provided below
 function randomNumber(maxNumber, minNumber) {
     if (!minNumber) {
         minNumber = 1;
     }
     return Math.floor((Math.random() * (maxNumber - minNumber)) + minNumber);
 }
+//starts a new game within the numbers and sets the random numbers
 function newGame() {
     correctNumber = randomNumber(120, 19);
     angryCatNumber = randomNumber(12);
@@ -18,7 +19,7 @@ function newGame() {
 } 
 
 newGame();
-
+//this function compares the number they have guessed to the correct number to determine a win or loss, and starts a new game
 function calculateScore(catNumber) {
     totalScore += catNumber;
     if (totalScore === correctNumber) {
@@ -32,7 +33,7 @@ function calculateScore(catNumber) {
     }
 }
 
-
+//this updates the HTML with JQuery
 $("#angryCat").click(function() {
     calculateScore(angryCatNumber);
 });

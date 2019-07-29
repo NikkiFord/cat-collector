@@ -1,1 +1,1 @@
-Created a "cat collector" game for school. I used JQuery to manipulate the DOM, and changed the numbers, as per the game rules. I used Boostrap to style(although, it is definitely not my suit, nor my favorite thing lol). 
+Created a "cat collector" game for school. I used JQuery to manipulate the DOM, and changed the numbers, as per the game rules. I used Boostrap to style(although, it is definitely not my suit, nor my favorite thing lol). I also forgot to commit my code every day to git hub.
