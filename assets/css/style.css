@@ -1,0 +1,33 @@
+#angryCat {
+    width: 200px;
+}
+
+#devilCat {
+    width: 200px;
+}
+
+#haloCat {
+    width: 200px;
+}
+
+#happyCat {
+    width: 200px;
+}
+
+.scoreBox {
+    font-size: 25px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(../images/backgroundimage2.jpeg);
+    color:#FFA500;
+}
+
+#instructions {
+    display:none;
+}
+
+#showHow {
+    background-color:#FFA500;
+};
